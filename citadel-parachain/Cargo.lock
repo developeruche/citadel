@@ -6248,6 +6248,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "pallet-dex-v2"
+version = "0.0.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7b5b979c88934c5d202675dc2116986a766405f80b57bda653ce972b077f85b5"
+dependencies = [
+ "frame-support",
+ "frame-system",
+ "parity-scale-codec",
+ "scale-info",
+ "sp-runtime",
+ "sp-std",
+]
+
+[[package]]
 name = "pallet-election-provider-multi-phase"
 version = "30.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -7166,10 +7180,12 @@ dependencies = [
  "frame-try-runtime",
  "hex-literal",
  "log",
+ "pallet-assets",
  "pallet-aura",
  "pallet-authorship",
  "pallet-balances",
  "pallet-collator-selection",
+ "pallet-dex-v2",
  "pallet-message-queue",
  "pallet-parachain-template",
  "pallet-session",
